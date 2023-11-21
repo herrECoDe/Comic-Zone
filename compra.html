@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic-Zone</title>
+    <link rel="shortcut icon" href="images/cz_icon-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+   
+</head>
+<body>
+    <div class="popup-overlay" id="popup">
+        <div class="popup-content">
+            <p>Compra realizada. Pronto te estaremos actualizando sobre tu pedido.</p> <br>
+            ¡Gracias por preferirnos!
+            <div>
+                <a href="/index.html" class="boton6">
+                    <span>Cerrar</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById('popup').style.display = 'flex';
+        }
+
+        function closePopup() {
+            document.getElementById('popup').style.display = 'none';
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            showPopup();
+        });
+
+        document.getElementById('closePopup').addEventListener('click', function() {
+            closePopup();
+        });
+    </script>
+    
+</body>
+</html>

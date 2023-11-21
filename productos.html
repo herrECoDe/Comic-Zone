@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comic-Zone</title>
+    <link rel="shortcut icon" href="images/cz_icon-removebg-preview.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./images/comiczone img.png" alt="logo"/>
+            </div>
+            <nav>
+                <a href="./carrito.html">Carrito</a>
+                <a href="/index.html">Inicio</a>
+                <a id="act" href="/iniciosesion.html">Iniciar Sesión</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="comics">
+        <div class="titulo-catalogo">
+            <h1>Catálogo</h1>
+        </div>
+        <div class="boton">
+            <button class="boton-catalogo" id="todos-productos">
+                TODOS LOS PRODUCTOS
+            </button>
+            <button class="boton-catalogo" id="comics-productos">
+                CÓMICS
+            </button>
+            <button class="boton-catalogo" id="ropa-productos">
+                ROPA
+            </button>
+            <button class="boton-catalogo" id="accesorios-productos">
+                ACCESORIOS
+            </button>
+            
+        </div>
+        <div class="subtitulo-catalogo">
+            <h2 id="titulo-catalogo">Todos los productos</h2>
+        </div>
+        
+        <div class="container-comics">
+            <!-- esto se genera con js -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; Hecho por Juan Herrera y Jose Polo <br>
+            
+            </p>
+        </div>
+    </footer>
+    <script src="./js/productos.js"> </script>
+    <script src="./js/admin.js"></script>
+</body>
+
+</html>
